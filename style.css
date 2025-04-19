@@ -1,15 +1,63 @@
-*{margin:"0px";
+*{
+    margin:"0px";
     font-size:"20px";
     font-family:Arial, Helvetica, sans-serif;
-    padding: ;
-    
-
+    padding: 2px;
 }
-.redes{
+
+p{
+    text-align:justify;
+}
+
+h1 {
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+}
+
+.redes {
     margin: 20px;
     display: flex;
-
 }
+
 .redes div{
     margin: auto;
+}
+
+hr{
+    padding: 0px;
+}
+
+form label {
+    margin: 5px;
+    padding: 2px;
+    display: block;
+    justify-content:normal;
+}
+
+form {
+    margin: 5px;
+    padding: 2px;
+    margin-block-end: 20px;
+    width: 300px;
+    
+}
+
+form input{
+    width: 250px;
+} 
+
+form textarea{
+    width: 250px;
+    height: 100px;
+} 
+
+form input[type="button"] {
+    margin-top: 20px;
+    width: 100px;
+}
+
+footer {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
 }
